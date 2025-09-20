@@ -1,6 +1,114 @@
 [
   {
+    "package": "brio",
+    "url": "https://github.com/r-lib/brio"
+  },
+  {
+    "package": "callr",
+    "url": "https://github.com/r-lib/callr"
+  },
+  {
+    "package": "cli",
+    "url": "https://github.com/r-lib/cli"
+  },
+  {
+    "package": "crayon",
+    "url": "https://github.com/r-lib/crayon"
+  },
+  {
+    "package": "desc",
+    "url": "https://github.com/r-lib/desc"
+  },
+  {
+    "package": "diffobj",
+    "url": "https://github.com/brodieG/diffobj"
+  },
+  {
+    "package": "digest",
+    "url": "https://github.com/eddelbuettel/digest"
+  },
+  {
+    "package": "evaluate",
+    "url": "https://github.com/r-lib/evaluate"
+  },
+  {
+    "package": "fs",
+    "url": "https://github.com/r-lib/fs"
+  },
+  {
+    "package": "generics",
+    "url": "https://github.com/r-lib/generics"
+  },
+  {
+    "package": "glue",
+    "url": "https://github.com/tidyverse/glue"
+  },
+  {
+    "package": "jsonlite",
+    "url": "https://github.com/jeroen/jsonlite"
+  },
+  {
+    "package": "lifecycle",
+    "url": "https://github.com/r-lib/lifecycle"
+  },
+  {
+    "package": "magrittr",
+    "url": "https://github.com/tidyverse/magrittr"
+  },
+  {
+    "package": "pkgbuild",
+    "url": "https://github.com/r-lib/pkgbuild"
+  },
+  {
+    "package": "pkgload",
+    "url": "https://github.com/r-lib/pkgload"
+  },
+  {
+    "package": "praise",
+    "url": "https://github.com/gaborcsardi/praise"
+  },
+  {
+    "package": "processx",
+    "url": "https://github.com/r-lib/processx"
+  },
+  {
+    "package": "ps",
+    "url": "https://github.com/r-lib/ps"
+  },
+  {
+    "package": "R6",
+    "url": "https://github.com/r-lib/R6"
+  },
+  {
+    "package": "rlang",
+    "url": "https://github.com/r-lib/rlang"
+  },
+  {
+    "package": "rprojroot",
+    "url": "https://github.com/r-lib/rprojroot"
+  },
+  {
+    "package": "timechange",
+    "url": "https://github.com/vspinu/timechange"
+  },
+  {
+    "package": "utf8",
+    "url": "https://github.com/krlmlr/utf8"
+  },
+  {
+    "package": "vctrs",
+    "url": "https://github.com/r-lib/vctrs"
+  },
+  {
+    "package": "waldo",
+    "url": "https://github.com/r-lib/waldo"
+  },
+  {
+    "package": "withr",
+    "url": "https://github.com/r-lib/withr"
+  },
+  {
     "package": "duckdb",
     "url": "https://github.com/krlmlr/duckdb-r"
- }
+  }
 ]

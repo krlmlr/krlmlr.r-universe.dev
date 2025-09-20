@@ -64,6 +64,8 @@ for (pkg in dependencies) {
   cat("Processing package:", pkg, "\n")
   github_url <- get_github_url(pkg)
 
+  stopifnot(pkg != "duckdb")
+
   if (!is.na(github_url)) {
     packages_data[[length(packages_data) + 1]] <- list(
       package = pkg,
@@ -75,10 +77,12 @@ for (pkg in dependencies) {
   }
 }
 
-if (length(packages_data) > 0) {
-  json_content <- toJSON(packages_data, pretty = TRUE, auto_unbox = TRUE)
-  writeLines(json_content, json_file)
-  cat("\nUpdated", json_file, "with", length(packages_data), "packages\n")
-} else {
-  cat("\nNo packages with GitHub URLs found\n")
-}
+# FIXME: Needed for webr tests
+packages_data[[length(packages_data) + 1]] <- list(
+  package = "duckdb",
+  url = "https://github.com/krlmlr/duckdb-r"
+)
+
+json_content <- toJSON(packages_data, pretty = TRUE, auto_unbox = TRUE)
+writeLines(json_content, json_file)
+cat("\nUpdated", json_file, "with", length(packages_data), "packages\n")
