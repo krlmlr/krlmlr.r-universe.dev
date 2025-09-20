@@ -104,43 +104,37 @@ get_github_url <- function(package_name) {
   })
 }
 
-main <- function() {
-  target_package <- "hms"
-  json_file <- "packages.json"
+target_package <- "hms"
+json_file <- "packages.json"
 
-  cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
+cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
 
-  dependencies <- get_all_dependencies(target_package)
-  dependencies <- sort(dependencies)
-  cat("Found", length(dependencies), "dependencies:\n")
-  cat(paste(dependencies, collapse = ", "), "\n\n")
+dependencies <- get_all_dependencies(target_package)
+dependencies <- sort(dependencies)
+cat("Found", length(dependencies), "dependencies:\n")
+cat(paste(dependencies, collapse = ", "), "\n\n")
 
-  packages_data <- list()
+packages_data <- list()
 
-  for (pkg in dependencies) {
-    cat("Processing package:", pkg, "\n")
-    github_url <- get_github_url(pkg)
+for (pkg in dependencies) {
+  cat("Processing package:", pkg, "\n")
+  github_url <- get_github_url(pkg)
 
-    if (!is.na(github_url)) {
-      packages_data[[length(packages_data) + 1]] <- list(
-        package = pkg,
-        url = github_url
-      )
-      cat("  Found GitHub URL:", github_url, "\n")
-    } else {
-      cat("  No GitHub URL found\n")
-    }
-  }
-
-  if (length(packages_data) > 0) {
-    json_content <- toJSON(packages_data, pretty = TRUE, auto_unbox = TRUE)
-    writeLines(json_content, json_file)
-    cat("\nUpdated", json_file, "with", length(packages_data), "packages\n")
+  if (!is.na(github_url)) {
+    packages_data[[length(packages_data) + 1]] <- list(
+      package = pkg,
+      url = github_url
+    )
+    cat("  Found GitHub URL:", github_url, "\n")
   } else {
-    cat("\nNo packages with GitHub URLs found\n")
+    cat("  No GitHub URL found\n")
   }
 }
 
-if (!interactive()) {
-  main()
+if (length(packages_data) > 0) {
+  json_content <- toJSON(packages_data, pretty = TRUE, auto_unbox = TRUE)
+  writeLines(json_content, json_file)
+  cat("\nUpdated", json_file, "with", length(packages_data), "packages\n")
+} else {
+  cat("\nNo packages with GitHub URLs found\n")
 }
