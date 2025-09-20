@@ -1,66 +1,11 @@
 #!/usr/bin/env Rscript
 
-library(tools)
 library(jsonlite)
 
 get_all_dependencies <- function(package_name) {
-  av_pkgs <- available.packages()
-
-  if (!package_name %in% rownames(av_pkgs)) {
-    stop("Package '", package_name, "' not found in available packages")
-  }
-
-  pkg_info <- av_pkgs[package_name, ]
-
-  depends <- pkg_info["Depends"]
-  imports <- pkg_info["Imports"]
-  linking_to <- pkg_info["LinkingTo"]
-  suggests <- pkg_info["Suggests"]
-
-  all_deps <- c()
-
-  if (!is.na(depends) && depends != "") {
-    deps_parsed <- parse_dep_string(depends)
-    all_deps <- c(all_deps, deps_parsed)
-  }
-
-  if (!is.na(imports) && imports != "") {
-    imports_parsed <- parse_dep_string(imports)
-    all_deps <- c(all_deps, imports_parsed)
-  }
-
-  if (!is.na(linking_to) && linking_to != "") {
-    linking_parsed <- parse_dep_string(linking_to)
-    all_deps <- c(all_deps, linking_parsed)
-  }
-
-  if (!is.na(suggests) && suggests != "") {
-    suggests_parsed <- parse_dep_string(suggests)
-    all_deps <- c(all_deps, suggests_parsed)
-  }
-
-  all_deps <- unique(all_deps)
-  all_deps <- all_deps[all_deps != "R"]
-
-  return(all_deps)
-}
-
-parse_dep_string <- function(dep_string) {
-  if (is.na(dep_string) || dep_string == "") {
-    return(character(0))
-  }
-
-  deps <- strsplit(dep_string, ",")[[1]]
-  deps <- trimws(deps)
-
-  pkg_names <- character(length(deps))
-  for (i in seq_along(deps)) {
-    pkg_name <- gsub("\\s*\\([^)]*\\)", "", deps[i])
-    pkg_name <- trimws(pkg_name)
-    pkg_names[i] <- pkg_name
-  }
-
-  return(pkg_names[pkg_names != ""])
+  deps1 <- tools::package_dependencies(package_name, recursive = FALSE, which = c("Depends", "Imports", "Suggests"))
+  deps <- tools::package_dependencies(unique(unlist(deps1)), recursive = TRUE, which = c("Depends", "Imports"))
+  sort(unique(unlist(deps)))
 }
 
 get_github_url <- function(package_name) {
@@ -110,7 +55,6 @@ json_file <- "packages.json"
 cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
 
 dependencies <- get_all_dependencies(target_package)
-dependencies <- sort(dependencies)
 cat("Found", length(dependencies), "dependencies:\n")
 cat(paste(dependencies, collapse = ", "), "\n\n")
 
