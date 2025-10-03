@@ -16,6 +16,10 @@ get_github_url <- function(package_name) {
       return(NA)
     }
 
+    if (identical(db[["Priority"]], "base")) {
+      return(NA)
+    }
+
     url_field <- db[["URL"]]
     bug_reports_field <- db[["BugReports"]]
 
@@ -42,7 +46,7 @@ get_github_url <- function(package_name) {
       }
     }
 
-    return(NA)
+    return(paste0("https://github.com/cran/", package_name))
   }, error = function(e) {
     cat("Error processing package", package_name, ":", conditionMessage(e), "\n")
     return(NA)

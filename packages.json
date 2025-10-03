@@ -1,5 +1,9 @@
 [
   {
+    "package": "base64enc",
+    "url": "https://github.com/cran/base64enc"
+  },
+  {
     "package": "bit",
     "url": "https://github.com/r-lib/bit"
   },
@@ -108,12 +112,20 @@
     "url": "https://github.com/r-lib/isoband"
   },
   {
+    "package": "jquerylib",
+    "url": "https://github.com/cran/jquerylib"
+  },
+  {
     "package": "jsonlite",
     "url": "https://github.com/jeroen/jsonlite"
   },
   {
     "package": "knitr",
     "url": "https://github.com/yihui/knitr"
+  },
+  {
+    "package": "labeling",
+    "url": "https://github.com/cran/labeling"
   },
   {
     "package": "lattice",
@@ -126,6 +138,10 @@
   {
     "package": "magrittr",
     "url": "https://github.com/tidyverse/magrittr"
+  },
+  {
+    "package": "Matrix",
+    "url": "https://github.com/cran/Matrix"
   },
   {
     "package": "memoise",
@@ -178,6 +194,10 @@
   {
     "package": "rappdirs",
     "url": "https://github.com/r-lib/rappdirs"
+  },
+  {
+    "package": "RColorBrewer",
+    "url": "https://github.com/cran/RColorBrewer"
   },
   {
     "package": "readr",
