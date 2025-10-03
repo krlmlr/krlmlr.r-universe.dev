@@ -106,9 +106,5 @@
   {
     "package": "withr",
     "url": "https://github.com/r-lib/withr"
-  },
-  {
-    "package": "duckdb",
-    "url": "https://github.com/krlmlr/duckdb-r"
   }
 ]
