@@ -1,7 +1,23 @@
 [
   {
+    "package": "bit",
+    "url": "https://github.com/r-lib/bit"
+  },
+  {
+    "package": "bit64",
+    "url": "https://github.com/r-lib/bit64"
+  },
+  {
     "package": "brio",
     "url": "https://github.com/r-lib/brio"
+  },
+  {
+    "package": "bslib",
+    "url": "https://github.com/rstudio/bslib"
+  },
+  {
+    "package": "cachem",
+    "url": "https://github.com/r-lib/cachem"
   },
   {
     "package": "callr",
@@ -10,6 +26,10 @@
   {
     "package": "cli",
     "url": "https://github.com/r-lib/cli"
+  },
+  {
+    "package": "clipr",
+    "url": "https://github.com/mdlincoln/clipr"
   },
   {
     "package": "crayon",
@@ -28,8 +48,24 @@
     "url": "https://github.com/eddelbuettel/digest"
   },
   {
+    "package": "dplyr",
+    "url": "https://github.com/tidyverse/dplyr"
+  },
+  {
     "package": "evaluate",
     "url": "https://github.com/r-lib/evaluate"
+  },
+  {
+    "package": "farver",
+    "url": "https://github.com/thomasp85/farver"
+  },
+  {
+    "package": "fastmap",
+    "url": "https://github.com/r-lib/fastmap"
+  },
+  {
+    "package": "fontawesome",
+    "url": "https://github.com/rstudio/fontawesome"
   },
   {
     "package": "fs",
@@ -44,8 +80,44 @@
     "url": "https://github.com/tidyverse/glue"
   },
   {
+    "package": "gtable",
+    "url": "https://github.com/r-lib/gtable"
+  },
+  {
+    "package": "highr",
+    "url": "https://github.com/yihui/highr"
+  },
+  {
+    "package": "hms",
+    "url": "https://github.com/tidyverse/hms"
+  },
+  {
+    "package": "htmltools",
+    "url": "https://github.com/rstudio/htmltools"
+  },
+  {
+    "package": "htmlwidgets",
+    "url": "https://github.com/ramnathv/htmlwidgets"
+  },
+  {
+    "package": "igraph",
+    "url": "https://github.com/igraph/rigraph"
+  },
+  {
+    "package": "isoband",
+    "url": "https://github.com/r-lib/isoband"
+  },
+  {
     "package": "jsonlite",
     "url": "https://github.com/jeroen/jsonlite"
+  },
+  {
+    "package": "knitr",
+    "url": "https://github.com/yihui/knitr"
+  },
+  {
+    "package": "lattice",
+    "url": "https://github.com/deepayan/lattice"
   },
   {
     "package": "lifecycle",
@@ -56,8 +128,24 @@
     "url": "https://github.com/tidyverse/magrittr"
   },
   {
+    "package": "memoise",
+    "url": "https://github.com/r-lib/memoise"
+  },
+  {
+    "package": "mime",
+    "url": "https://github.com/yihui/mime"
+  },
+  {
+    "package": "pillar",
+    "url": "https://github.com/r-lib/pillar"
+  },
+  {
     "package": "pkgbuild",
     "url": "https://github.com/r-lib/pkgbuild"
+  },
+  {
+    "package": "pkgconfig",
+    "url": "https://github.com/r-lib/pkgconfig"
   },
   {
     "package": "pkgload",
@@ -72,24 +160,88 @@
     "url": "https://github.com/r-lib/processx"
   },
   {
+    "package": "profmem",
+    "url": "https://github.com/HenrikBengtsson/profmem"
+  },
+  {
     "package": "ps",
     "url": "https://github.com/r-lib/ps"
+  },
+  {
+    "package": "purrr",
+    "url": "https://github.com/tidyverse/purrr"
   },
   {
     "package": "R6",
     "url": "https://github.com/r-lib/R6"
   },
   {
+    "package": "rappdirs",
+    "url": "https://github.com/r-lib/rappdirs"
+  },
+  {
+    "package": "readr",
+    "url": "https://github.com/tidyverse/readr"
+  },
+  {
     "package": "rlang",
     "url": "https://github.com/r-lib/rlang"
+  },
+  {
+    "package": "rmarkdown",
+    "url": "https://github.com/rstudio/rmarkdown"
   },
   {
     "package": "rprojroot",
     "url": "https://github.com/r-lib/rprojroot"
   },
   {
+    "package": "rstudioapi",
+    "url": "https://github.com/rstudio/rstudioapi"
+  },
+  {
+    "package": "S7",
+    "url": "https://github.com/RConsortium/S7"
+  },
+  {
+    "package": "sass",
+    "url": "https://github.com/rstudio/sass"
+  },
+  {
+    "package": "scales",
+    "url": "https://github.com/r-lib/scales"
+  },
+  {
+    "package": "stringi",
+    "url": "https://github.com/gagolews/stringi"
+  },
+  {
+    "package": "stringr",
+    "url": "https://github.com/tidyverse/stringr"
+  },
+  {
+    "package": "tibble",
+    "url": "https://github.com/tidyverse/tibble"
+  },
+  {
+    "package": "tidyr",
+    "url": "https://github.com/tidyverse/tidyr"
+  },
+  {
+    "package": "tidyselect",
+    "url": "https://github.com/r-lib/tidyselect"
+  },
+  {
     "package": "timechange",
     "url": "https://github.com/vspinu/timechange"
+  },
+  {
+    "package": "tinytex",
+    "url": "https://github.com/rstudio/tinytex"
+  },
+  {
+    "package": "tzdb",
+    "url": "https://github.com/r-lib/tzdb"
   },
   {
     "package": "utf8",
@@ -100,11 +252,31 @@
     "url": "https://github.com/r-lib/vctrs"
   },
   {
+    "package": "viridisLite",
+    "url": "https://github.com/sjmgarnier/viridisLite"
+  },
+  {
+    "package": "visNetwork",
+    "url": "https://github.com/datastorm-open/visNetwork"
+  },
+  {
+    "package": "vroom",
+    "url": "https://github.com/tidyverse/vroom"
+  },
+  {
     "package": "waldo",
     "url": "https://github.com/r-lib/waldo"
   },
   {
     "package": "withr",
     "url": "https://github.com/r-lib/withr"
+  },
+  {
+    "package": "xfun",
+    "url": "https://github.com/yihui/xfun"
+  },
+  {
+    "package": "yaml",
+    "url": "https://github.com/vubiostat/r-yaml"
   }
 ]

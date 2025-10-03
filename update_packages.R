@@ -49,7 +49,7 @@ get_github_url <- function(package_name) {
   })
 }
 
-target_package <- "hms"
+target_package <- c("hms", "tibble")
 json_file <- "packages.json"
 
 cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
