@@ -1,5 +1,13 @@
 [
   {
+    "package": "askpass",
+    "url": "https://github.com/r-lib/askpass"
+  },
+  {
+    "package": "assertthat",
+    "url": "https://github.com/cran/assertthat"
+  },
+  {
     "package": "base64enc",
     "url": "https://github.com/cran/base64enc"
   },
@@ -10,6 +18,10 @@
   {
     "package": "bit64",
     "url": "https://github.com/r-lib/bit64"
+  },
+  {
+    "package": "blob",
+    "url": "https://github.com/tidyverse/blob"
   },
   {
     "package": "brio",
@@ -38,6 +50,18 @@
   {
     "package": "crayon",
     "url": "https://github.com/r-lib/crayon"
+  },
+  {
+    "package": "credentials",
+    "url": "https://github.com/r-lib/credentials"
+  },
+  {
+    "package": "curl",
+    "url": "https://github.com/jeroen/curl"
+  },
+  {
+    "package": "DBI",
+    "url": "https://github.com/r-dbi/DBI"
   },
   {
     "package": "desc",
@@ -80,6 +104,10 @@
     "url": "https://github.com/r-lib/generics"
   },
   {
+    "package": "gitcreds",
+    "url": "https://github.com/r-lib/gitcreds"
+  },
+  {
     "package": "glue",
     "url": "https://github.com/tidyverse/glue"
   },
@@ -104,8 +132,20 @@
     "url": "https://github.com/ramnathv/htmlwidgets"
   },
   {
+    "package": "httr",
+    "url": "https://github.com/r-lib/httr"
+  },
+  {
+    "package": "httr2",
+    "url": "https://github.com/r-lib/httr2"
+  },
+  {
     "package": "igraph",
     "url": "https://github.com/igraph/rigraph"
+  },
+  {
+    "package": "ini",
+    "url": "https://github.com/dvdscripter/ini"
   },
   {
     "package": "isoband",
@@ -132,8 +172,16 @@
     "url": "https://github.com/deepayan/lattice"
   },
   {
+    "package": "lazyeval",
+    "url": "https://github.com/cran/lazyeval"
+  },
+  {
     "package": "lifecycle",
     "url": "https://github.com/r-lib/lifecycle"
+  },
+  {
+    "package": "lubridate",
+    "url": "https://github.com/tidyverse/lubridate"
   },
   {
     "package": "magrittr",
@@ -150,6 +198,18 @@
   {
     "package": "mime",
     "url": "https://github.com/yihui/mime"
+  },
+  {
+    "package": "nanoarrow",
+    "url": "https://github.com/apache/arrow-nanoarrow"
+  },
+  {
+    "package": "openssl",
+    "url": "https://github.com/jeroen/openssl"
+  },
+  {
+    "package": "palmerpenguins",
+    "url": "https://github.com/allisonhorst/palmerpenguins"
   },
   {
     "package": "pillar",
@@ -204,6 +264,10 @@
     "url": "https://github.com/tidyverse/readr"
   },
   {
+    "package": "rex",
+    "url": "https://github.com/kevinushey/rex"
+  },
+  {
     "package": "rlang",
     "url": "https://github.com/r-lib/rlang"
   },
@@ -232,12 +296,24 @@
     "url": "https://github.com/r-lib/scales"
   },
   {
+    "package": "selectr",
+    "url": "https://github.com/sjp/selectr"
+  },
+  {
     "package": "stringi",
     "url": "https://github.com/gagolews/stringi"
   },
   {
     "package": "stringr",
     "url": "https://github.com/tidyverse/stringr"
+  },
+  {
+    "package": "sys",
+    "url": "https://github.com/jeroen/sys"
+  },
+  {
+    "package": "testthat",
+    "url": "https://github.com/r-lib/testthat"
   },
   {
     "package": "tibble",
@@ -296,7 +372,15 @@
     "url": "https://github.com/yihui/xfun"
   },
   {
+    "package": "xml2",
+    "url": "https://github.com/r-lib/xml2"
+  },
+  {
     "package": "yaml",
     "url": "https://github.com/vubiostat/r-yaml"
+  },
+  {
+    "package": "zip",
+    "url": "https://github.com/r-lib/zip"
   }
 ]

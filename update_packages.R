@@ -53,7 +53,7 @@ get_github_url <- function(package_name) {
   })
 }
 
-target_package <- c("hms", "tibble")
+target_package <- c("hms", "tibble", "blob", "RSQLite", "duckdb", "RMariaDB", "RPostgres")
 json_file <- "packages.json"
 
 cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
