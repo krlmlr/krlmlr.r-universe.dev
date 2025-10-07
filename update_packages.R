@@ -69,10 +69,29 @@ for (pkg in dependencies) {
   github_url <- get_github_url(pkg)
 
   if (!is.na(github_url)) {
-    packages_data[[length(packages_data) + 1]] <- list(
+    org <- gsub("https://github.com/([^/]+)/.*", "\\1", github_url)
+    url <- paste0("https://", org, ".r-universe.dev/api/packages/", pkg)
+
+    body <- tryCatch(
+      httr2::request(url) |>
+        httr2::req_user_agent("krlmlr") |>
+        httr2::req_perform() |>
+        httr2::resp_body_json(),
+      error = function(e) {
+        list()
+      }
+    )
+
+    meta <- list(
       package = pkg,
       url = github_url
     )
+
+    if (!is.null(body$RemoteSubdir)) {
+      meta$subdir <- body$RemoteSubdir
+    }
+
+    packages_data[[length(packages_data) + 1]] <- meta
     cat("  Found GitHub URL:", github_url, "\n")
   } else {
     cat("  No GitHub URL found\n")

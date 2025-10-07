@@ -1,11 +1,13 @@
 [
   {
     "package": "adbcdrivermanager",
-    "url": "https://github.com/apache/arrow-adbc"
+    "url": "https://github.com/apache/arrow-adbc",
+    "subdir": "r/adbcdrivermanager"
   },
   {
     "package": "arrow",
-    "url": "https://github.com/apache/arrow"
+    "url": "https://github.com/apache/arrow",
+    "subdir": "r"
   },
   {
     "package": "askpass",
@@ -281,7 +283,8 @@
   },
   {
     "package": "nanoarrow",
-    "url": "https://github.com/apache/arrow-nanoarrow"
+    "url": "https://github.com/apache/arrow-nanoarrow",
+    "subdir": "r"
   },
   {
     "package": "nycflights13",
