@@ -53,7 +53,16 @@ get_github_url <- function(package_name) {
   })
 }
 
-target_package <- c("hms", "tibble", "blob", "RSQLite", "duckdb", "RMariaDB", "RPostgres", "bindrcpp", "duckplyr")
+get_actions_sync_packages <- function() {
+  all <- system("git -C ~/git/actions-sync branch -r", intern = TRUE)
+  true <- grep("origin/[^ ]+/.*", all, value = TRUE)
+
+  true <- gsub("/duckdb-r$", "/duckdb", true)
+
+  unique(gsub("^.*/[^/]+/(.*)$", "\\1", true))
+}
+
+target_package <- get_actions_sync_packages()
 json_file <- "packages.json"
 
 cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
