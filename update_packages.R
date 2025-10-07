@@ -53,7 +53,7 @@ get_github_url <- function(package_name) {
   })
 }
 
-target_package <- c("hms", "tibble", "blob", "RSQLite", "duckdb", "RMariaDB", "RPostgres", "bindrcpp")
+target_package <- c("hms", "tibble", "blob", "RSQLite", "duckdb", "RMariaDB", "RPostgres", "bindrcpp", "duckplyr")
 json_file <- "packages.json"
 
 cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
@@ -67,8 +67,6 @@ packages_data <- list()
 for (pkg in dependencies) {
   cat("Processing package:", pkg, "\n")
   github_url <- get_github_url(pkg)
-
-  stopifnot(pkg != "duckdb")
 
   if (!is.na(github_url)) {
     packages_data[[length(packages_data) + 1]] <- list(

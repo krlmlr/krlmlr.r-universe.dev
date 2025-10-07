@@ -68,6 +68,18 @@
     "url": "https://github.com/r-lib/clock"
   },
   {
+    "package": "collections",
+    "url": "https://github.com/randy3k/collections"
+  },
+  {
+    "package": "conflicted",
+    "url": "https://github.com/r-lib/conflicted"
+  },
+  {
+    "package": "constructive",
+    "url": "https://github.com/cynkra/constructive"
+  },
+  {
     "package": "covr",
     "url": "https://github.com/r-lib/covr"
   },
@@ -118,6 +130,10 @@
   {
     "package": "dplyr",
     "url": "https://github.com/tidyverse/dplyr"
+  },
+  {
+    "package": "duckdb",
+    "url": "https://github.com/duckdb/duckdb-r"
   },
   {
     "package": "evaluate",
@@ -240,6 +256,10 @@
     "url": "https://github.com/r-lib/lifecycle"
   },
   {
+    "package": "lobstr",
+    "url": "https://github.com/r-lib/lobstr"
+  },
+  {
     "package": "lubridate",
     "url": "https://github.com/tidyverse/lubridate"
   },
@@ -294,6 +314,14 @@
   {
     "package": "praise",
     "url": "https://github.com/gaborcsardi/praise"
+  },
+  {
+    "package": "prettycode",
+    "url": "https://github.com/r-lib/prettycode"
+  },
+  {
+    "package": "prettyunits",
+    "url": "https://github.com/r-lib/prettyunits"
   },
   {
     "package": "processx",
@@ -412,6 +440,10 @@
     "url": "https://github.com/r-lib/tzdb"
   },
   {
+    "package": "usethis",
+    "url": "https://github.com/r-lib/usethis"
+  },
+  {
     "package": "utf8",
     "url": "https://github.com/krlmlr/utf8"
   },
@@ -434,6 +466,10 @@
   {
     "package": "waldo",
     "url": "https://github.com/r-lib/waldo"
+  },
+  {
+    "package": "whisker",
+    "url": "https://github.com/edwindj/whisker"
   },
   {
     "package": "withr",
