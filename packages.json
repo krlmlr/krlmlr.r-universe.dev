@@ -1,5 +1,13 @@
 [
   {
+    "package": "adbcdrivermanager",
+    "url": "https://github.com/apache/arrow-adbc"
+  },
+  {
+    "package": "arrow",
+    "url": "https://github.com/apache/arrow"
+  },
+  {
     "package": "askpass",
     "url": "https://github.com/r-lib/askpass"
   },
@@ -10,6 +18,14 @@
   {
     "package": "base64enc",
     "url": "https://github.com/cran/base64enc"
+  },
+  {
+    "package": "bench",
+    "url": "https://github.com/r-lib/bench"
+  },
+  {
+    "package": "bindr",
+    "url": "https://github.com/krlmlr/bindr"
   },
   {
     "package": "bit",
@@ -48,6 +64,14 @@
     "url": "https://github.com/mdlincoln/clipr"
   },
   {
+    "package": "clock",
+    "url": "https://github.com/r-lib/clock"
+  },
+  {
+    "package": "covr",
+    "url": "https://github.com/r-lib/covr"
+  },
+  {
     "package": "crayon",
     "url": "https://github.com/r-lib/crayon"
   },
@@ -64,8 +88,24 @@
     "url": "https://github.com/r-dbi/DBI"
   },
   {
+    "package": "DBItest",
+    "url": "https://github.com/r-dbi/DBItest"
+  },
+  {
+    "package": "dbplyr",
+    "url": "https://github.com/tidyverse/dbplyr"
+  },
+  {
+    "package": "decor",
+    "url": "https://github.com/r-lib/decor"
+  },
+  {
     "package": "desc",
     "url": "https://github.com/r-lib/desc"
+  },
+  {
+    "package": "DiagrammeR",
+    "url": "https://github.com/rich-iannone/DiagrammeR"
   },
   {
     "package": "diffobj",
@@ -96,12 +136,28 @@
     "url": "https://github.com/rstudio/fontawesome"
   },
   {
+    "package": "formattable",
+    "url": "https://github.com/renkun-ken/formattable"
+  },
+  {
     "package": "fs",
     "url": "https://github.com/r-lib/fs"
   },
   {
     "package": "generics",
     "url": "https://github.com/r-lib/generics"
+  },
+  {
+    "package": "gert",
+    "url": "https://github.com/r-lib/gert"
+  },
+  {
+    "package": "ggplot2",
+    "url": "https://github.com/tidyverse/ggplot2"
+  },
+  {
+    "package": "gh",
+    "url": "https://github.com/r-lib/gh"
   },
   {
     "package": "gitcreds",
@@ -114,6 +170,10 @@
   {
     "package": "gtable",
     "url": "https://github.com/r-lib/gtable"
+  },
+  {
+    "package": "here",
+    "url": "https://github.com/r-lib/here"
   },
   {
     "package": "highr",
@@ -204,6 +264,10 @@
     "url": "https://github.com/apache/arrow-nanoarrow"
   },
   {
+    "package": "nycflights13",
+    "url": "https://github.com/hadley/nycflights13"
+  },
+  {
     "package": "openssl",
     "url": "https://github.com/jeroen/openssl"
   },
@@ -260,6 +324,10 @@
     "url": "https://github.com/cran/RColorBrewer"
   },
   {
+    "package": "Rcpp",
+    "url": "https://github.com/RcppCore/Rcpp"
+  },
+  {
     "package": "readr",
     "url": "https://github.com/tidyverse/readr"
   },
@@ -282,6 +350,10 @@
   {
     "package": "rstudioapi",
     "url": "https://github.com/rstudio/rstudioapi"
+  },
+  {
+    "package": "rvest",
+    "url": "https://github.com/tidyverse/rvest"
   },
   {
     "package": "S7",

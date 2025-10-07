@@ -5,7 +5,7 @@ library(jsonlite)
 get_all_dependencies <- function(package_name) {
   deps1 <- tools::package_dependencies(package_name, recursive = FALSE, which = c("Depends", "Imports", "Suggests"))
   deps <- tools::package_dependencies(unique(unlist(deps1)), recursive = TRUE, which = c("Depends", "Imports"))
-  sort(unique(unlist(deps)))
+  sort(unique(c(unlist(deps1), unlist(deps))))
 }
 
 get_github_url <- function(package_name) {
@@ -53,7 +53,7 @@ get_github_url <- function(package_name) {
   })
 }
 
-target_package <- c("hms", "tibble", "blob", "RSQLite", "duckdb", "RMariaDB", "RPostgres")
+target_package <- c("hms", "tibble", "blob", "RSQLite", "duckdb", "RMariaDB", "RPostgres", "bindrcpp")
 json_file <- "packages.json"
 
 cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
