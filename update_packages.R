@@ -46,7 +46,7 @@ get_github_url <- function(package_name) {
       }
     }
 
-    return(paste0("https://github.com/cran/", package_name))
+    return(NA)
   }, error = function(e) {
     cat("Error processing package", package_name, ":", conditionMessage(e), "\n")
     return(NA)
