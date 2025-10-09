@@ -63,6 +63,8 @@ get_actions_sync_packages <- function() {
 }
 
 target_package <- get_actions_sync_packages()
+# target_package <- c("hms", "tibble", "blob", "RSQLite", "duckdb", "RMariaDB", "RPostgres", "bindrcpp", "duckplyr", "adbi")
+
 json_file <- "packages.json"
 
 cat("Finding all dependencies (strong + suggested) of package:", target_package, "\n")
