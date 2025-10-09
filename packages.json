@@ -19,16 +19,8 @@
     "url": "https://github.com/r-lib/askpass"
   },
   {
-    "package": "assertthat",
-    "url": "https://github.com/cran/assertthat"
-  },
-  {
     "package": "backports",
     "url": "https://github.com/r-lib/backports"
-  },
-  {
-    "package": "base64enc",
-    "url": "https://github.com/cran/base64enc"
   },
   {
     "package": "bench",
@@ -91,10 +83,6 @@
     "url": "https://github.com/rstudio/chromote"
   },
   {
-    "package": "class",
-    "url": "https://github.com/cran/class"
-  },
-  {
     "package": "classInt",
     "url": "https://github.com/r-spatial/classInt"
   },
@@ -109,10 +97,6 @@
   {
     "package": "clock",
     "url": "https://github.com/r-lib/clock"
-  },
-  {
-    "package": "codetools",
-    "url": "https://github.com/cran/codetools"
   },
   {
     "package": "collections",
@@ -187,10 +171,6 @@
     "url": "https://github.com/r-lib/decor"
   },
   {
-    "package": "DEoptimR",
-    "url": "https://github.com/cran/DEoptimR"
-  },
-  {
     "package": "desc",
     "url": "https://github.com/r-lib/desc"
   },
@@ -239,10 +219,6 @@
     "url": "https://github.com/duckdb/duckdb-r"
   },
   {
-    "package": "e1071",
-    "url": "https://github.com/cran/e1071"
-  },
-  {
     "package": "ellipsis",
     "url": "https://github.com/r-lib/ellipsis"
   },
@@ -285,10 +261,6 @@
   {
     "package": "forcats",
     "url": "https://github.com/tidyverse/forcats"
-  },
-  {
-    "package": "foreign",
-    "url": "https://github.com/cran/foreign"
   },
   {
     "package": "formattable",
@@ -403,16 +375,8 @@
     "url": "https://github.com/r-lib/isoband"
   },
   {
-    "package": "jquerylib",
-    "url": "https://github.com/cran/jquerylib"
-  },
-  {
     "package": "jsonlite",
     "url": "https://github.com/jeroen/jsonlite"
-  },
-  {
-    "package": "KernSmooth",
-    "url": "https://github.com/cran/KernSmooth"
   },
   {
     "package": "keyring",
@@ -421,10 +385,6 @@
   {
     "package": "knitr",
     "url": "https://github.com/yihui/knitr"
-  },
-  {
-    "package": "labeling",
-    "url": "https://github.com/cran/labeling"
   },
   {
     "package": "labelled",
@@ -437,10 +397,6 @@
   {
     "package": "lattice",
     "url": "https://github.com/deepayan/lattice"
-  },
-  {
-    "package": "lazyeval",
-    "url": "https://github.com/cran/lazyeval"
   },
   {
     "package": "lifecycle",
@@ -467,18 +423,6 @@
     "url": "https://github.com/tidyverse/magrittr"
   },
   {
-    "package": "MASS",
-    "url": "https://github.com/cran/MASS"
-  },
-  {
-    "package": "Matrix",
-    "url": "https://github.com/cran/Matrix"
-  },
-  {
-    "package": "MatrixModels",
-    "url": "https://github.com/cran/MatrixModels"
-  },
-  {
     "package": "memoise",
     "url": "https://github.com/r-lib/memoise"
   },
@@ -495,20 +439,12 @@
     "url": "https://github.com/rstudio/miniUI"
   },
   {
-    "package": "mnormt",
-    "url": "https://github.com/cran/mnormt"
-  },
-  {
     "package": "mockery",
     "url": "https://github.com/r-lib/mockery"
   },
   {
     "package": "modelr",
     "url": "https://github.com/tidyverse/modelr"
-  },
-  {
-    "package": "mvtnorm",
-    "url": "https://github.com/cran/mvtnorm"
   },
   {
     "package": "nanoarrow",
@@ -522,10 +458,6 @@
   {
     "package": "nomnoml",
     "url": "https://github.com/rstudio/nomnoml"
-  },
-  {
-    "package": "numDeriv",
-    "url": "https://github.com/cran/numDeriv"
   },
   {
     "package": "nycflights13",
@@ -576,10 +508,6 @@
     "url": "https://github.com/hadley/plyr"
   },
   {
-    "package": "png",
-    "url": "https://github.com/cran/png"
-  },
-  {
     "package": "pool",
     "url": "https://github.com/rstudio/pool"
   },
@@ -620,10 +548,6 @@
     "url": "https://github.com/rstudio/promises"
   },
   {
-    "package": "proxy",
-    "url": "https://github.com/cran/proxy"
-  },
-  {
     "package": "pryr",
     "url": "https://github.com/hadley/pryr"
   },
@@ -634,14 +558,6 @@
   {
     "package": "purrr",
     "url": "https://github.com/tidyverse/purrr"
-  },
-  {
-    "package": "quadprog",
-    "url": "https://github.com/cran/quadprog"
-  },
-  {
-    "package": "quantreg",
-    "url": "https://github.com/cran/quantreg"
   },
   {
     "package": "R.cache",
@@ -678,10 +594,6 @@
   {
     "package": "rcmdcheck",
     "url": "https://github.com/r-Lib/rcmdcheck"
-  },
-  {
-    "package": "RColorBrewer",
-    "url": "https://github.com/cran/RColorBrewer"
   },
   {
     "package": "Rcpp",
@@ -744,10 +656,6 @@
     "url": "https://github.com/rstudio/rmarkdown"
   },
   {
-    "package": "robustbase",
-    "url": "https://github.com/cran/robustbase"
-  },
-  {
     "package": "roxygen2",
     "url": "https://github.com/r-lib/roxygen2"
   },
@@ -782,10 +690,6 @@
   {
     "package": "S7",
     "url": "https://github.com/RConsortium/S7"
-  },
-  {
-    "package": "sandwich",
-    "url": "https://github.com/cran/sandwich"
   },
   {
     "package": "sass",
@@ -834,10 +738,6 @@
   {
     "package": "sourcetools",
     "url": "https://github.com/kevinushey/sourcetools"
-  },
-  {
-    "package": "SparseM",
-    "url": "https://github.com/cran/SparseM"
   },
   {
     "package": "spelling",
@@ -1000,10 +900,6 @@
     "url": "https://github.com/yihui/xfun"
   },
   {
-    "package": "XML",
-    "url": "https://github.com/cran/XML"
-  },
-  {
     "package": "xml2",
     "url": "https://github.com/r-lib/xml2"
   },
@@ -1016,10 +912,6 @@
     "url": "https://github.com/r-lib/xopen"
   },
   {
-    "package": "xtable",
-    "url": "https://github.com/cran/xtable"
-  },
-  {
     "package": "yaml",
     "url": "https://github.com/vubiostat/r-yaml"
   },
@@ -1030,9 +922,5 @@
   {
     "package": "zip",
     "url": "https://github.com/r-lib/zip"
-  },
-  {
-    "package": "zoo",
-    "url": "https://github.com/cran/zoo"
   }
 ]
