@@ -12,6 +12,10 @@
     "url": "https://github.com/krlmlr/plogr"
   },
   {
+    "package": "utf8",
+    "url": "https://github.com/krlmlr/utf8"
+  },
+  {
     "package": "wrswoR",
     "url": "https://github.com/krlmlr/wrswoR"
   }
