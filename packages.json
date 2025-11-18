@@ -8,6 +8,10 @@
     "url": "https://github.com/krlmlr/bindrcpp"
   },
   {
+    "package": "kimisc",
+    "url": "https://github.com/krlmlr/kimisc"
+  },
+  {
     "package": "plogr",
     "url": "https://github.com/krlmlr/plogr"
   },
