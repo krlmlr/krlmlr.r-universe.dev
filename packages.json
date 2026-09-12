@@ -8,6 +8,11 @@
         "url": "https://github.com/krlmlr/bindrcpp"
     },
     {
+        "package": "cpp11",
+        "url": "https://github.com/krlmlr/cpp11",
+        "branch": "fork"
+    },
+    {
         "package": "kimisc",
         "url": "https://github.com/krlmlr/kimisc"
     },
