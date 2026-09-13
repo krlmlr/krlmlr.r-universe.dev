@@ -27,20 +27,5 @@
     {
         "package": "wrswoR",
         "url": "https://github.com/krlmlr/wrswoR"
-    },
-    {
-        "package": "duckdb.1.4.dev",
-        "url": "https://github.com/krlmlr/duckdb-r",
-        "branch": "v1.4-andium-fwd-green"
-    },
-    {
-        "package": "duckdb.1.5.dev",
-        "url": "https://github.com/krlmlr/duckdb-r",
-        "branch": "v1.5-variegata-fwd-green"
-    },
-    {
-        "package": "duckdb.dev",
-        "url": "https://github.com/krlmlr/duckdb-r",
-        "branch": "main-fwd-green"
     }
 ]
